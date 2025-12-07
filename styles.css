@@ -1,1 +1,42 @@
-/*  your css code here. If applicable */
+/* Main wrapper width */
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Image container */
+.imageContainer img {
+    width: 1100px;
+    height: auto;
+    display: block;
+}
+
+/* Table styling */
+table {
+    width: 1100px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    vertical-align: top;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Column widths */
+.col-1,
+.col-3 {
+    width: 200px;
+}
+
+.col-2 {
+    width: 600px;
+}
+
+/* Image styling inside table */
+td img {
+    width: 200px;
+    height: auto;
+}
